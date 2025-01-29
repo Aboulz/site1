@@ -1,8 +1,9 @@
-const btnPlus = document.querySelectorbtnPlus('.plus');
-const colTransport = document.querySelector('.col-transports');
+const btnPlus = document.querySelector('.plus');
+console.log(btnPlus);
+const colTransport = document.querySelector('.conteneur-transport');
 
-btnPlus.addEventListiener('click', ouvreferme)
+btnPlus.addEventListener('click', ouvreferme)
 
 function ouvreferme(){
-    colTransport.classList.toggle('invsible');
+    colTransport.classList.toggle('invisible');
 }

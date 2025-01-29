@@ -1,0 +1,233 @@
+/*----------------------------------------------------------------------------------
+    Reset
+----------------------------------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*----------------------------------------------------------------------------------
+    Base
+----------------------------------------------------------------------------------*/
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------------
+    Mise en page
+----------------------------------------------------------------------------------*/
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+/*----------------------------------------------------------------------------------
+    Modules
+----------------------------------------------------------------------------------*/
+
+/*   Header   */
+
+
+header{
+    background-color: #f26c25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*   Logo   */
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    margin-right: 10px;
+}
+
+header h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+
+    margin: 0;
+}
+
+/*   Navigation principale   */
+header ul{
+    display: flex;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+header nav ul li{
+    margin-left: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/*   banniere   */
+.banniere{
+    padding-top: 85px;
+    padding-bottom: 85px;
+
+    background-color: #eeeeee;
+}
+
+.banniere h2{
+    margin: 0;
+
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+
+/*   Section   */
+.titreSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+
+    background-color: #eeeeee;
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+    border: 1px solid #d0d0d0;
+}
+
+.titreSection h2{
+    font-size: 18px;
+
+    font-weight: 700;
+
+    margin-left: 20px;
+}
+
+.titreSection img{
+    margin-right: 20px;
+
+    cursor: pointer;
+}
+
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 80px;
+}
+
+article h3{
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+
+    margin-bottom: 0;
+}
+
+article p{
+    text-align: center;
+}
+
+/*   footer   */
+footer{
+    background-color: #171717;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .wrapper h4{
+    margin: 0;
+    color: white;
+}
+
+footer .wrapper ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+footer .wrapper ul li{
+    margin-left: 20px;
+}
+
+footer .wrapper ul li a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+/*   media sociaux   */
+
+.facebook{
+    background-image: url("../images/facebook-nb\ 1.png");
+}
+
+.twitter{
+    background-image: url("../images/twitter-nb\ 1.png");
+}
+
+.linkedin{
+    background-image: url("../images/linkedin-nb\ 1.png");
+}
+
+.pinterest{
+    background-image: url("../images/pinterest-nb\ 1.png");
+}
+
+.facebook a:hover{
+    background-image: url("../images/facebook-survol\ 1.png");
+}
+
+.twitter a:hover{
+    background-image: url("../images/twitter-survol\ 1.png");
+}
+
+.linkedin a:hover{
+    background-image: url("../images/linkedin-survol\ 1.png");
+}
+
+.pinterest a:hover{
+    background-image: url("../images/pinterest-survol\ 1.png");
+}
+
+/*----------------------------------------------------------------------------------
+    Aide stylistique
+----------------------------------------------------------------------------------*/
+
+.invisible{
+    visibility: hidden;
+}
